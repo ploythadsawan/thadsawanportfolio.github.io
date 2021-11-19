@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&display=swap');
+nav {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.nav-link {
+    padding-left: 4rem !important;
+    padding-right: 0 !important;
+}
+
+.number {
+    font-family: 'Playfair Display', serif;
+    font-size: 31.25rem;
+    font-weight: 500;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    z-index: -1000;
+    -webkit-text-stroke: 1px #555555;
+    opacity: 0.5;
+    color: transparent;
+}
+
+
+/* Homepage */
+
+.home .hero {
+    height: 100vh;
+    margin-top: -56px;
+    display: flex;
+}
+
+.home .hero .header {
+    font-family: 'Prata', serif;
+    font-size: 7.5rem;
+    line-height: 8.125rem;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.home .details {
+    margin-top: -160px;
+}
+
+.home .details .verticalLine {
+    border-left: 1px solid #000000;
+}
+
+.home .details p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.625rem;
+    margin-bottom: 0.625rem;
+    margin-left: 0.938rem;
+}
+
+
+/* Contact */
+
+.contact .hero {
+    height: 100vh;
+    margin-top: -56px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact .hero .header {
+    font-family: 'Prata', serif;
+    font-size: 7.5rem;
+    line-height: 8.125rem;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.contact .details {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3.125rem;
+    font-weight: 400;
+    margin-top: -280px;
+}
