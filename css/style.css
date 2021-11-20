@@ -81,6 +81,8 @@ nav {
     color: #FFFFFF;
     /* transform: translate(0, -16%); */
     line-height: 12rem;
+    position: relative;
+    z-index: -1;
 }
 
 
