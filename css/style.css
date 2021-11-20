@@ -1,30 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&display=swap');
+html {
+    font-size: 50%;
+}
+
+@media (min-width: 992px) {
+    html {
+        font-size: 62.5%;
+    }
+}
+
+@media (max-width: 767px) {
+    .number {
+        visibility: hidden;
+    }
+}
+
 h1 {
     font-family: 'Poppins', sans-serif;
-    font-size: 2.5rem;
+    font-size: 4.0rem;
     /*40px*/
     font-weight: 600;
 }
 
 h2 {
     font-family: 'Poppins', sans-serif;
-    font-size: 1.375rem !important;
+    font-size: 2.2rem !important;
     /*22px*/
     font-weight: 600 !important;
+    margin-bottom: 2.0rem !important;
 }
 
 h3 {
     font-family: 'Poppins', sans-serif;
-    font-size: 1.25rem;
+    font-size: 2rem;
     /*20px*/
     font-weight: 500;
 }
 
 p {
     font-family: 'Poppins', sans-serif;
-    font-size: 1rem;
+    font-size: 1.6rem;
     /*16px*/
     font-weight: 300;
     margin-bottom: 0 !important;
@@ -35,22 +52,35 @@ nav {
     font-weight: 500;
 }
 
+.navbar {
+    padding-top: 0.8rem !important;
+    padding-bottom: 0.8rem !important;
+}
+
+.navbar-brand {
+    font-size: 2rem !important;
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+}
+
 .nav-link {
-    padding-left: 4rem !important;
+    padding-left: 6.4rem !important;
     padding-right: 0 !important;
+    font-size: 1.8rem !important;
 }
 
 .number {
     font-family: 'Playfair Display', serif;
-    font-size: 31.25rem;
+    font-size: 50.0rem;
     font-weight: 500;
     display: flex;
     justify-content: flex-end;
-    align-items: flex-end;
-    z-index: -1000;
+    /* align-items: flex-end; */
     -webkit-text-stroke: 1px #555555;
     opacity: 0.5;
     color: #FFFFFF;
+    /* transform: translate(0, -16%); */
+    line-height: 12rem;
 }
 
 
@@ -60,14 +90,15 @@ nav {
     height: 100vh;
     margin-top: -56px;
     display: flex;
+    align-items: center;
 }
 
 .home .hero .header {
     font-family: 'Prata', serif;
-    font-size: 7.5rem;
-    line-height: 8.125rem;
-    margin-top: auto;
-    margin-bottom: auto;
+    font-size: 12.0rem;
+    line-height: 13.0rem;
+    position: relative;
+    z-index: 1;
 }
 
 .home .details {
@@ -80,11 +111,11 @@ nav {
 
 .home .details .intro {
     font-family: 'Poppins', sans-serif;
-    font-size: 1rem;
+    font-size: 1.6rem;
     font-weight: 300;
-    line-height: 1.625rem;
-    margin-bottom: 0.625rem;
-    margin-left: 0.938rem;
+    line-height: 2.6rem;
+    margin-bottom: 1rem;
+    margin-left: 1.5rem;
 }
 
 
@@ -94,15 +125,19 @@ nav {
     height: 100vh;
     margin-top: -56px;
     display: flex;
-    justify-content: space-between;
+    align-items: center;
 }
 
 .about .hero .header {
     font-family: 'Prata', serif;
-    font-size: 7.5rem;
-    line-height: 8.125rem;
-    margin-top: auto;
-    margin-bottom: auto;
+    font-size: 12.0rem;
+    line-height: 13.0rem;
+    position: relative;
+    z-index: 1;
+}
+
+.about .content {
+    height: 100vh;
 }
 
 
@@ -112,15 +147,15 @@ nav {
     height: 100vh;
     margin-top: -56px;
     display: flex;
-    justify-content: space-between;
+    align-items: center;
 }
 
 .contact .hero .header {
     font-family: 'Prata', serif;
-    font-size: 7.5rem;
-    line-height: 8.125rem;
-    margin-top: auto;
-    margin-bottom: auto;
+    font-size: 12.0rem;
+    line-height: 13.0rem;
+    position: relative;
+    z-index: 1;
 }
 
 .contact .details {
@@ -128,4 +163,6 @@ nav {
     font-size: 3.125rem;
     font-weight: 400;
     margin-top: -280px;
+    position: relative;
+    z-index: 1;
 }
