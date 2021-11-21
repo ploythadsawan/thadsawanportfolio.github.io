@@ -90,9 +90,10 @@ nav {
 
 .home .hero {
     height: 100vh;
-    margin-top: -56px;
+    margin-top: -5.6rem;
     display: flex;
     align-items: center;
+    overflow: hidden;
 }
 
 .home .hero .header {
@@ -125,7 +126,7 @@ nav {
 
 .about .hero {
     height: 100vh;
-    margin-top: -56px;
+    margin-top: -5.6rem;
     display: flex;
     align-items: center;
 }
@@ -147,9 +148,10 @@ nav {
 
 .contact .hero {
     height: 100vh;
-    margin-top: -56px;
+    margin-top: -5.6rem;
     display: flex;
     align-items: center;
+    overflow: hidden;
 }
 
 .contact .hero .header {
