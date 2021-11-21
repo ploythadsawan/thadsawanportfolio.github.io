@@ -13,7 +13,7 @@ html {
 
 @media (max-width: 767px) {
     .number {
-        visibility: hidden;
+        display: none !important;
     }
 }
 
@@ -89,14 +89,16 @@ nav {
 /* Homepage */
 
 .home .hero {
-    height: 100vh;
+    height: 99vh;
     margin-top: -5.6rem;
     display: flex;
     align-items: center;
     overflow: hidden;
 }
 
-.home .hero .header {
+.home .hero .header,
+.about .hero .header,
+.contact .hero .header {
     font-family: 'Prata', serif;
     font-size: 12.0rem;
     line-height: 13.0rem;
@@ -125,19 +127,20 @@ nav {
 /* About */
 
 .about .hero {
-    height: 100vh;
+    height: 99vh;
     margin-top: -5.6rem;
     display: flex;
     align-items: center;
 }
 
-.about .hero .header {
+
+/* .about .hero .header {
     font-family: 'Prata', serif;
     font-size: 12.0rem;
     line-height: 13.0rem;
     position: relative;
     z-index: 1;
-}
+} */
 
 .about .content {
     height: 100vh;
@@ -147,20 +150,21 @@ nav {
 /* Contact */
 
 .contact .hero {
-    height: 100vh;
+    height: 99vh;
     margin-top: -5.6rem;
     display: flex;
     align-items: center;
     overflow: hidden;
 }
 
-.contact .hero .header {
+
+/* .contact .hero .header {
     font-family: 'Prata', serif;
     font-size: 12.0rem;
     line-height: 13.0rem;
     position: relative;
     z-index: 1;
-}
+} */
 
 .contact .details {
     font-family: 'Poppins', sans-serif;
