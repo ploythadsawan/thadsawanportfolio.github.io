@@ -47,7 +47,7 @@ h2 {
     font-size: 2.2rem !important;
     /*22px*/
     font-weight: 600 !important;
-    margin-bottom: 3.0rem !important;
+    margin-bottom: 2.0rem !important;
 }
 
 h3 {
@@ -197,8 +197,8 @@ nav {
 
 .resume .content .year-2019,
 .resume .content .year-2020 {
-    margin-top: 2.5rem;
-    margin-bottom: 4rem;
+    margin-top: 1.6rem;
+    margin-bottom: 3.0rem;
 }
 
 .resume .content a {
