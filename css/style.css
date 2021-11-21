@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&display=swap');
 html {
-    font-size: 50%;
+    font-size: 43%;
 }
 
 @media (min-width: 992px) {
@@ -11,11 +11,24 @@ html {
     }
 }
 
+@media (min-width: 768px) and (max-width: 992px) {
+    html {
+        font-size: 50%;
+    }
+}
+
 @media (max-width: 767px) {
     .number {
         display: none !important;
     }
+    .about .content img {
+        width: 50% !important;
+        display: flex;
+        margin: 0 auto 4rem auto;
+    }
 }
+
+@media (max-width: 575px) {}
 
 h1 {
     font-family: 'Poppins', sans-serif;
@@ -89,7 +102,7 @@ nav {
 /* Homepage */
 
 .home .hero {
-    height: 99vh;
+    height: 100vh;
     margin-top: -5.6rem;
     display: flex;
     align-items: center;
@@ -98,7 +111,8 @@ nav {
 
 .home .hero .header,
 .about .hero .header,
-.contact .hero .header {
+.contact .hero .header,
+.resume .hero .header {
     font-family: 'Prata', serif;
     font-size: 12.0rem;
     line-height: 13.0rem;
@@ -127,7 +141,7 @@ nav {
 /* About */
 
 .about .hero {
-    height: 99vh;
+    height: 100vh;
     margin-top: -5.6rem;
     display: flex;
     align-items: center;
@@ -143,14 +157,49 @@ nav {
 } */
 
 .about .content {
-    height: 100vh;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
 }
+
+.about .content img {
+    width: 100%;
+}
+
+.about .content .name,
+.about .content .education,
+.about .content .laguage,
+.about .content .skills,
+.about .content .knowledge {
+    margin-bottom: 4rem;
+}
+
+
+/* Resume */
+
+.resume .hero {
+    height: 100vh;
+    margin-top: -5.6rem;
+    display: flex;
+    align-items: center;
+}
+
+.resume .content {
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* .resume .content .year-2019 {
+    margin-bottom: 4rem;
+} */
 
 
 /* Contact */
 
 .contact .hero {
-    height: 99vh;
+    height: 100vh;
     margin-top: -5.6rem;
     display: flex;
     align-items: center;
