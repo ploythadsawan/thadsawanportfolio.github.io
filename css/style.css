@@ -22,13 +22,18 @@ html {
         display: none !important;
     }
     .about .content img {
-        width: 50% !important;
+        width: 60% !important;
         display: flex;
         margin: 0 auto 4rem auto;
     }
 }
 
-@media (max-width: 575px) {}
+@media (max-width: 575px) {
+    .container,
+    .container-sm {
+        max-width: 360px;
+    }
+}
 
 h1 {
     font-family: 'Poppins', sans-serif;
@@ -42,7 +47,7 @@ h2 {
     font-size: 2.2rem !important;
     /*22px*/
     font-weight: 600 !important;
-    margin-bottom: 2.0rem !important;
+    margin-bottom: 3.0rem !important;
 }
 
 h3 {
@@ -121,7 +126,7 @@ nav {
 }
 
 .home .details {
-    margin-top: -160px;
+    margin-top: -16rem;
 }
 
 .home .details .verticalLine {
@@ -185,15 +190,28 @@ nav {
 }
 
 .resume .content {
-    height: 60vh;
+    height: 100vh;
     display: flex;
-    justify-content: center;
+    align-items: center;
 }
 
-
-/* .resume .content .year-2019 {
+.resume .content .year-2019,
+.resume .content .year-2020 {
+    margin-top: 2.5rem;
     margin-bottom: 4rem;
-} */
+}
+
+.resume .content a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.6rem;
+    /*16px*/
+    font-weight: 300;
+    color: #000000;
+}
+
+.resume .content a:hover {
+    background-color: #d3d1c5;
+}
 
 
 /* Contact */
