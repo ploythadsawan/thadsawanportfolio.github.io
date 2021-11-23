@@ -55,6 +55,8 @@ h3 {
     font-size: 2rem;
     /*20px*/
     font-weight: 500;
+    margin-top: 4rem !important;
+    margin-bottom: 3rem !important;
 }
 
 p {
@@ -117,6 +119,7 @@ nav {
 .home .hero .header,
 .about .hero .header,
 .contact .hero .header,
+.work .hero .header,
 .resume .hero .header {
     font-family: 'Prata', serif;
     font-size: 12.0rem;
@@ -206,10 +209,78 @@ nav {
     font-size: 1.6rem;
     /*16px*/
     font-weight: 300;
+    text-decoration: none;
     color: #000000;
 }
 
 .resume .content a:hover {
+    background-color: #d3d1c5;
+}
+
+
+/* Work */
+
+.work .hero {
+    height: 100vh;
+    margin-top: -5.6rem;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.work .d-block {
+    text-align: center;
+}
+
+.work .details {
+    position: relative;
+    top: -26rem;
+    z-index: 1;
+}
+
+.work .name {
+    font-family: 'Poppins', sans-serif;
+    font-size: 4.0rem;
+    /*16px*/
+    font-weight: 400;
+}
+
+.work .content {
+    height: 100vh;
+    display: flex;
+    align-items: flex-start;
+}
+
+
+/* .work .video,
+.work .siribox {
+    margin-top: 4.0rem;
+} */
+
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    /* 16:9 */
+    height: 0;
+}
+
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.work .content a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.6rem;
+    /*16px*/
+    font-weight: 300;
+    color: #000000;
+}
+
+.work .content a:hover {
     background-color: #d3d1c5;
 }
 
@@ -237,7 +308,7 @@ nav {
     font-family: 'Poppins', sans-serif;
     font-size: 3.125rem;
     font-weight: 400;
-    margin-top: -280px;
     position: relative;
+    margin-top: -28rem;
     z-index: 1;
 }
