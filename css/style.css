@@ -55,8 +55,8 @@ h3 {
     font-size: 2rem;
     /*20px*/
     font-weight: 500;
-    margin-top: 4rem !important;
-    margin-bottom: 3rem !important;
+    /* margin-top: 4rem !important;
+    margin-bottom: 3rem !important; */
 }
 
 p {
@@ -254,8 +254,13 @@ nav {
 
 /* .work .video,
 .work .siribox {
-    margin-top: 4.0rem;
 } */
+
+.work .content .video h3,
+.work .content .siribox h3 {
+    margin-top: 4.0rem;
+    margin-bottom: 3.0rem;
+}
 
 .videoWrapper {
     position: relative;
@@ -282,6 +287,14 @@ nav {
 
 .work .content a:hover {
     background-color: #d3d1c5;
+}
+
+.work .content .siribox .container {
+    padding: 0;
+}
+
+.work .content .siribox img {
+    width: 100%;
 }
 
 
