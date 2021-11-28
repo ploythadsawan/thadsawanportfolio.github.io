@@ -256,8 +256,13 @@ nav {
 .work .siribox {
 } */
 
+.work .content .video {
+    margin-bottom: 4.0rem;
+}
+
 .work .content .video h3,
-.work .content .siribox h3 {
+.work .content .siribox h3,
+.work .content .sirilaboratories h3 {
     margin-top: 4.0rem;
     margin-bottom: 3.0rem;
 }
@@ -289,11 +294,13 @@ nav {
     background-color: #d3d1c5;
 }
 
-.work .content .siribox .container {
+.work .content .siribox .container,
+.work .content .sirilaboratories .container {
     padding: 0;
 }
 
-.work .content .siribox img {
+.work .content .siribox img,
+.work .content .sirilaboratories img {
     width: 100%;
 }
 
