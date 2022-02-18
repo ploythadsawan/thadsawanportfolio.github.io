@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&display=swap');
 html {
     font-size: 43%;
+    scroll-behavior: smooth;
 }
 
 @media (min-width: 992px) {
@@ -129,7 +130,8 @@ nav {
 }
 
 .home .details {
-    margin-top: -16rem;
+    /* margin-top: -16rem; */
+    margin: auto;
 }
 
 .home .details .verticalLine {
@@ -331,4 +333,14 @@ nav {
     position: relative;
     margin-top: -28rem;
     z-index: 1;
+}
+
+.back-to-top {
+    margin-top: 6.25rem;
+    margin-bottom: 2.813rem;
+    opacity: 0.5;
+}
+
+.back-to-top:hover {
+    opacity: 1;
 }
