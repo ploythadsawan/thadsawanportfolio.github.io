@@ -1,9 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&display=swap');
+
 html {
     font-size: 43%;
     scroll-behavior: smooth;
+}
+
+.container {
+    max-width: 1140px !important;
 }
 
 @media (min-width: 992px) {
@@ -22,6 +27,7 @@ html {
     .number {
         display: none !important;
     }
+
     .about .content img {
         width: 60% !important;
         display: flex;
@@ -30,6 +36,7 @@ html {
 }
 
 @media (max-width: 575px) {
+
     .container,
     .container-sm {
         max-width: 360px;
@@ -82,6 +89,7 @@ nav {
     font-size: 2rem !important;
     padding-top: 0.5rem !important;
     padding-bottom: 0.5rem !important;
+    letter-spacing: -0.6px;
 }
 
 .nav-link {
@@ -134,17 +142,20 @@ nav {
     margin: auto;
 }
 
-.home .details .verticalLine {
-    border-left: 1px solid #000000;
-}
+/*.home .details .verticalLine {
+     border-left: 1px solid #000000; 
+}*/
 
 .home .details .intro {
     font-family: 'Poppins', sans-serif;
-    font-size: 1.6rem;
+    font-size: 2.2rem;
     font-weight: 300;
-    line-height: 2.6rem;
+    /*line-height: 2.6rem;
     margin-bottom: 1rem;
-    margin-left: 1.5rem;
+    margin-left: 1.5rem;*/
+    color: #000000;
+    text-decoration: none;
+    cursor: none;
 }
 
 
@@ -203,7 +214,7 @@ nav {
 .resume .content .year-2019,
 .resume .content .year-2020_2021 {
     margin-top: 1.6rem;
-    margin-bottom: 3.0rem;
+    /*margin-bottom: 3.0rem;*/
 }
 
 .resume .content a {
@@ -215,7 +226,8 @@ nav {
     color: #000000;
 }
 
-.resume .content a:hover {
+.resume .content a:hover,
+.contact .details a:hover {
     background-color: #d3d1c5;
 }
 
@@ -333,6 +345,10 @@ nav {
     position: relative;
     margin-top: -28rem;
     z-index: 1;
+}
+
+.contact .details a {
+    color: #000000 !important;
 }
 
 .back-to-top {
